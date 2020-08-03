@@ -2,7 +2,8 @@
 let CACHE_NAME = 'oxi.cx-site-v0.1';
 let urlsToCache = [
     '/',
-    'index.html'
+    '/index.html',
+    '/app.js'
 ];
 
 self.addEventListener('install', (event) => {
