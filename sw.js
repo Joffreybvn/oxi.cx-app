@@ -4,8 +4,13 @@ let urlsToCache = [
     '/',
     '/index.html',
 
-    '/js/app/app.js',
-    '/js/redirect/redirect.mjs'
+    '/assets/img/dollar.svg',
+    '/assets/img/share.svg',
+
+    '/assets/css/styles.css',
+
+    '/assets/js/app/app.js',
+    '/assets/js/redirect/redirect.mjs'
 ];
 
 self.addEventListener('install', (event) => {
